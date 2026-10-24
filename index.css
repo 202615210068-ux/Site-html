@@ -1,0 +1,338 @@
+.capa{
+     height: 100vh;
+    background-image: url("Capa.png");
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+.banner{
+     display: grid;
+    grid-template-columns: 150px 1fr;
+    height: 145px;
+    background-image: url("capa2.png");
+    background-size: cover;
+    background-position: center;
+}
+.banner-texto{
+    color: white;
+    padding: 10px;
+}
+.banner-texto em{
+    color: #c9a86a;
+}
+.botoes a {
+    color: white;
+    background-color: #c9a86a;
+}
+.logo {
+    background-color: #fffbe4;
+    border: 2px solid #c9a86a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    width: 120px;
+}
+.sobre{
+   width: 1400px;
+    margin: auto;
+    min-height: 100vh;
+    padding: 50px;
+    background-color: #fffbe4;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px
+    
+}
+.sobre img {
+    width: 100%;
+    height: 350px;
+}
+.texto-sobre {
+    padding: 10px;
+}
+.texto-sobre a {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    background-color: #c9a86a;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.texto-sobre h2 {
+    font-size: 32px;
+    font-weight: normal;
+    margin: 0 0 20px 0;
+}
+
+.texto-sobre p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+.texto-sobre em {
+    color: #c9a86a;
+}
+.texto{
+    text-align: center;
+    color: white;
+}
+.texto h1{
+    font-size: 45px;
+    font-weight: normal;
+    margin: 0;
+}
+.texto p{
+    font-size: 20px;
+    margin: 10px 0;
+}
+.creditos{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.creditos p {
+    margin: 5px;
+    font-size: 14px;
+}
+.card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+}
+.eventos{
+    min-height: 100vh;
+    padding: 30px;
+    text-align: center;
+}
+.evento img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+}
+.evento span {
+    display: block;
+    color: #c9a86a;
+    font-size: 14px;
+    margin-top: 5px;
+
+}
+.eventos h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 20px 0 5px 0;
+}
+.eventos > p {
+    text-align: center;
+    font-size: 16px;
+    margin: 0 0 30px 0;
+}
+.eventos em{
+    color: #c9a86a;
+}
+.evento h3 {
+    font-size: 16px;
+    font-weight: normal;
+    margin: 5px 0 10px 0;
+    font-style: italic;
+}
+.evento p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0;
+}
+.momentos {
+    text-align: center;
+    padding: 30px;
+}
+.galeria img {
+     width: 100%;
+    height: 150px;
+}
+.galeria{
+   display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+}
+.imagem-grande img {
+    width: 100%;
+    height: 600px;
+}
+.lado-direito {
+    display: grid;
+    gap: 10px;
+    align-content: start;
+}
+.lado-direito img {
+    width: 100%;
+    height: 250px;
+}
+.imagens-menores {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}   
+.imagens-menores img {
+    width: 100%;
+    height: 340px;
+}
+.momentos h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: normal;
+    margin: 20px 0 5px 0;
+}
+.momentos > p {
+    text-align: center;
+    font-size: 16px;
+    margin: 0 0 30px 0;
+}
+.momentos em{
+    color: #c9a86a;
+}
+.orcamento {
+    padding: 50px;
+    background-color: #fffbe4;
+    text-align: center;
+}
+
+.orcamento h2 {
+    font-size: 32px;
+    font-weight: normal;
+    margin: 0 0 5px 0;
+}
+
+.orcamento > p {
+    font-size: 18px;
+    margin: 0 0 20px 0;
+}
+.orcamento main {
+    width: 450px;
+    margin: auto;
+    text-align: left;
+}
+
+.orcamento main p {
+    font-size: 18px;
+    margin: 15px 0 5px 0;
+}
+.orcamento input {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #c9a86a;
+}   
+.orcamento button {
+    height: 40px;
+    margin-top: 20px;
+}
+.orcamento button {
+    padding: 12px 25px;
+    background-color: #c9a86a;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+.mensagem {
+    height: 100px;
+}
+.orcamento button {
+    display: block;
+    margin: 20px auto 0 auto;
+}
+.orcamento em{
+    color: #c9a86a;
+}
+.contato {
+    padding: 50px;
+    background-color: #252525;
+    text-align: center;
+}
+
+.contato h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: normal;
+    margin: 0 0 10px 0;
+}
+
+.contato > p {
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+    margin: 0 0 40px 0;
+}
+
+.contato em {
+    color: #c9a86a;
+}
+.informacoes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+.informacoes p {
+    color: white;
+    margin: 5px 0;
+    font-size: 16px;
+}
+.historia {
+    padding: 50px;
+    background-color: #fffbe4;
+    text-align: center;
+}
+
+.historia h2 {
+    font-size: 40px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.historia em {
+    color: #c9a86a;
+}
+
+.historia p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 15px auto;
+    max-width: 800px;
+}
+
+.historia a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #c9a86a;
+    color: white;
+    text-decoration: none;
+}
+.historia-conteudo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.historia-conteudo img {
+    width: 100%;
+    height: 570px;
+    object-fit: cover;
+}
